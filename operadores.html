@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20px arial;  
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resultado com operadores</h1>
+
+    <p>Se quiser fazer mais calculos com os operadore <script>
+        window.alert('Teste com operadores')
+        var n1 = Number(window.prompt('Digite o primeiro valor'))
+        var n2 = Number(window.prompt('Digite o segundo valor'))
+        var n3 = Number(window.prompt('Digite o terceiro valor'))
+        var n4 = Number(window.prompt('Digite o quarto valor'))
+        //DECLARAÇÃO DE VALORES 
+
+        document.write (`Os valores a ser trabalhados serão: ${n1},${n2},${n3},${n4} <br><br/>`)
+        document.write (`Usando os operadores aritiméticos nas operações abaixo teremos os seguintes resultados: <br><br/>`)  
+        document.write (`Adição (+) nos operandos (${n1},${n2},${n3},${n4}) o resultado é: ${n1 + n2 + n3 + n4}<br/>`)
+        document.write (`Subtração (-) nos operandos (${n1},${n2},${n3},${n4}) o resultado é: ${n1 - n2 - n3 - n4} <br/>`)
+        document.write (`Multiplicação (*) nos operandos (${n1}) e (${n2}) o resultado é: ${n1 * n2} <br/>`)
+        document.write (`Divisão (/) nos operandos (${n3}) e (${n4}) o resultado é: ${n3 / n4} <br/>`)
+        document.write (`Potencialização (**) nos operando (${n2}) o resultado é: ${n2**2} <br/>`)
+        document.write (`Porcentagem (%) nos operandos (${n2}) e (${n4}) o resultado é: ${n2 % n4}<br/>`)
+        document.write (`Simplificando com operador de adição (++) no operando ${n3} o resultado é: ${++n3}<br/>`)
+        document.write (`Simplificando com operador de adição (--) no operando ${n4} o resultado é: ${--n4}<br><br/>`)
+        //Aqui eu exibi na página todas operações aritiméticas utilizando as variavéis que o cliente escreve ao entrar
+
+        document.write (`Usando os operadores de relação teremos os seguintes resultados: <br/>`)  
+        document.write (`(${n1} > ${n3}) com o operador relacional (>) o resultado é: ${n1 > n3} <br/>`)
+        document.write (`(${n2} < ${n1}) com o operador relacional (<) o resultado é: ${n2 < n1} <br/>`)
+        document.write (`(${n4} >= ${n3}) com o operador relacional (>=) o resultado é: ${n4 >= n3} <br/>`)
+        document.write (`(${n1} <= ${n4}) com o operador relacional (<=) o resultado é: ${n1 <= n4} <br/>`)
+        document.write (`(${n3} == ${n2}) com o operador s automaticamente, basta clicar em <b>Calculo de operadores em JS</b> para ter o seu resultado. BONS ESTUDOS A VOCE! <b>:D</b><br> 
+        <a href="operadores.html">Calculo de operadores em JS</a><br><br></p>
+
+   relacional (==) o resultado é: ${n3 == n2} <br/>`)
+        document.write (`(${n1} === ${n4}) com o operador relacional (===) o resultado é: ${n1 === n4} <br/>`)
+        document.write (`(${n2} != ${n3}) com o operador relacional (!=) o resultado é: ${n2 != n3} <br><br/>`)
+        //Nessa parte vão ser relacionados os valores das variavéis e vão ser exibidos em valor booleano 
+
+        document.write (`Agora usando operadores lógicos teremos os resultados de "true" ou "false" nas expressões:<br/>`)
+        document.write (`(${n3} * 4 > 8) && (${n1} % 4 <  7): ${n3 * 4 > 8 && n1 % 4 < 7}<br/>`)
+        document.write (`(${n1} + 8 == 15) || (${n4} / 3 != 4): ${n1 + 8 == 15 || n4 / 3 != 4}<br/>`)
+        document.write (`(${n2} ** > 17) && (${n1} - 4 <= 15): ${n2**2 > 17 && n1 - 4 <= 15}<br/>`)
+        document.write (`(${n4} != ${n3}) || (${n2} - ${n2} % 4 + 3 === ${n1}): ${n4 != n3 || n2 - n2 % 4 + 3 === n1}<br/>`)
+        document.write (`(${n2} ++ !== 5): ${n2++ !==5}<br/>`)
+        document.write (`(${n3} -- !< 8): ${! n3-- <= 8}<br/>`)
+        document.write (`(${n4} * 3 / 5 - ${n2} % 7 != 16) && (${n3} == 5 * 2 / ${n1} <= 13): ${n4 * 3 / 5 - n2 % 7 != 16 && n3 == 5 * 2 / n1 <= 13}<br/>`)
+        //Parte onde os operadores lógicos são aplicados junto com o aritiméticos e os de relação para exibir os valores booleanos "true" ou "false"  
+    </script>
+<br>
+<p><b>Entre contato caso tenha sujestão de melhorias para o meu projeto ou para dar sua opinião, serei grato pela atenção</b><br>
+    <a href="https://www.instagram.com/_zerbietii/">Instagram</a><br>
+    <a href="https://x.com/Thezeisz">Twitter(X)</a></p>
+</body>
+</html>
